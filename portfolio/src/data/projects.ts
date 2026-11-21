@@ -6,12 +6,11 @@ export interface Project {
   name: string;
   kind: ProjectKind;
   summary: L;
-  /** Technical bullets: language-neutral, so they stay in English. */
   features: string[];
   stack: string[];
   status: "in-progress" | "completed" | "prototype";
-  repo?: string; // TODO: add real URLs
-  live?: string; // TODO: add real URLs
+  repo?: string;
+  live?: string;
 }
 
 export const projects: Project[] = [
@@ -24,6 +23,7 @@ export const projects: Project[] = [
     },
     features: ["Posts, reels, groups and pages", "Notifications and search", "Real-time messaging", "REST API consumed by a typed React client"],
     stack: ["Laravel API", "React", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+    repo:"https://github.com/abderrahim1210/wallgo"
   },
   {
     id: "pixora", name: "Pixora", kind: "fullstack", status: "completed",
@@ -34,6 +34,7 @@ export const projects: Project[] = [
     },
     features: ["Google OAuth sign-in", "Server-side image processing with Intervention Image", "Cloud media storage and delivery via Cloudinary"],
     stack: ["Laravel", "React", "MySQL", "Cloudinary", "Intervention Image", "Google OAuth"],
+    repo:"https://github.com/abderrahim1210/pixora"
   },
   {
     id: "iwaco", name: "IWACO Showcase & Catalog", kind: "fullstack", status: "completed",
@@ -44,6 +45,7 @@ export const projects: Project[] = [
     },
     features: ["Dynamic product catalog", "Structured SCSS on top of Bootstrap", "Laravel back end with a MariaDB database"],
     stack: ["Laravel", "React", "SCSS", "Bootstrap", "MariaDB"],
+    repo:"https://github.com/abderrahim1210/iwaco"
   },
   {
     id: "deluxeupload", name: "DeluxeUpload", kind: "fullstack", status: "completed",
@@ -54,6 +56,7 @@ export const projects: Project[] = [
     },
     features: ["File upload and storage", "Sharing flow", "Plain PHP and JavaScript, no framework"],
     stack: ["PHP", "JavaScript"],
+    repo:"https://github.com/abderrahim1210/deluxeupload"
   },
   {
     id: "bookly", name: "Bookly", kind: "cms", status: "prototype",
@@ -64,6 +67,7 @@ export const projects: Project[] = [
     },
     features: ["Product catalog and cart", "Checkout flow", "Store configuration in WooCommerce"],
     stack: ["WordPress", "WooCommerce"],
+    repo:"https://github.com/abderrahim1210"
   },
 ];
 
