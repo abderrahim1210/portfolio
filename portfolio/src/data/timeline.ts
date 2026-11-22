@@ -14,7 +14,7 @@ export const timeline: TimelineItem[] = [
     },
   },
   {
-    id: "internship", period: "YYYY", place: "[Company name]",
+    id: "internship", period: "01/04/2026 - 30/04/2026", place: "TMANDIS - IWACO",
     title: { en: "End-of-studies internship", fr: "Stage de fin d'études", ar: "تدريب نهاية الدراسة" },
     description: {
       en: "Worked on a real web application in a team, from requirements to delivery.",
@@ -23,7 +23,7 @@ export const timeline: TimelineItem[] = [
     },
   },
   {
-    id: "bookstore", period: "YYYY", place: "[Bookstore name]",
+    id: "bookstore", period: "24/07/2026 - 01/10/2026", place: "Izdihar",
     title: { en: "Bookstore role", fr: "Poste en librairie", ar: "العمل في مكتبة" },
     description: {
       en: "Customer-facing work that built communication skills and a feel for how people browse and buy.",
@@ -32,7 +32,7 @@ export const timeline: TimelineItem[] = [
     },
   },
   {
-    id: "training", period: "YYYY – YYYY", place: "[Institution name]",
+    id: "training", period: "01/09/2024 – 01/06/2026", place: "Insitut Spécialisé de Formation de l'Offchoring Casablanca",
     title: { en: "Bac+2 Digital Development, Full Stack Web", fr: "Bac+2 Développement Digital, Full Stack Web", ar: "Bac+2 تطوير رقمي، Full Stack Web" },
     description: {
       en: "Graduated with Mention Très Bien. Project-based training in PHP/Laravel, JavaScript/React, databases and tooling.",
